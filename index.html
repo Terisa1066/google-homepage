@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+    <meta charset="utf-8">
+    <head>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <title>Welcome to Fake Googlez</title>
+        <style>
+            ul {
+                border: 2px solid gray;
+                background-color: white;
+            }
+            li {
+                display: inline;   
+                text-align: center;
+                padding: 14px 16px;
+                font: small-caps bold 20px "Arial", sans-serif;
+            }
+            .box {
+                background-color: white;
+                height: 290px;
+                max-height: 290px;
+                min-height: 92px;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: flex-end;
+            }
+           .logo {
+                background-color: white;
+                height: 90px;
+                width: 200px;                
+           }
+           .spacepadding {
+               background-color: white;
+               height: 25px;
+           }  
+           .searchcontr {
+                background-color: white;
+                height: 127px;
+                display: flex;     
+                align-items: flex-start;
+                justify-content: center;
+           }    
+           #googlezsrch {
+               background-color: white;
+               height: 43px;
+               width: 250px; 
+               border-radius: 25px 1px 1px 25px;
+               border: 2px solid gray;
+               font-family: Arial;
+               font-size: 15px;
+           }
+           #srchbutton {
+                float: left;
+                width: 43px;
+                height: 49px;
+                background: #2196F3;
+                color: white;
+                font-size: 17px;
+                border-radius: 1px 25px 25px 1px;
+                border: 2px solid grey;
+                border-left: none; /* Prevent double borders */
+                cursor: pointer;
+           }
+          .fixed-footer {
+              position: fixed;
+              bottom: 0;
+              width: 100%;
+          } 
+            
+        </style>
+    </head>
+<body>
+    <div>
+        <ul>
+            <li style="float:left">About</li>
+            <li style="float:left">Store</li>
+            <li style="float:right">Images</li>
+            <li style="float:right">GzMail</li>
+        </ul>
+    </div>
+    <div class="box"> 
+        <img class="logo" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png"    
+            alt="googlez logo">
+    </div>
+    <div class="spacepadding"></div>
+    <div class="searchcontr">
+        <input type="text" id="googlezsrch" placeholder="Search it!">
+        <button type="submit" id="srchbutton"><i class="fa fa-search"></i></button>
+    </div>
+    
+</body>
+<footer>
+    <div class="fixed-footer">
+        <ul>
+            <li style="float:left">Advertising</li>
+            <li style="float:left">Business</li>
+            <li style="float:left">How Search Works</li>
+            <li style="float:right">Settings</li>
+            <li style="float:right">Terms</li>
+            <li style="float:right">Privacy</li>
+        </ul>
+    </div>
+</footer>
+</html>
